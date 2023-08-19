@@ -7,3 +7,8 @@ export interface CustomButtonProps {
   btnType?: "button" | "submit";
   disabled?: boolean;
 }
+
+export interface SearchManufacturerProps {
+  manufacturer: string;
+  setManufacturer: (manufacturer: string) => void;
+}
